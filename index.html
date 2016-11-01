@@ -3,15 +3,22 @@
 <style>html{background:#2693ba;text-align:center;color:#fff;font:normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;}
 .loglnk{width:80%;display:block;margin:auto;margin-top:20px;padding:20px;text-decoration:none;color:#fff;border:1px solid #fff;
 font-size:20px;text-align:center;}.loglnk:active{background:#fff;color:#2693ba;}
-.intro{width:95%;display:block;margin:auto;margin-top:20px;padding:20px;font-size:20px;text-align:center;}
-.footer{width:95%;display:block;margin:auto;margin-top:20px;padding:20px;font-size:13px;text-align:center;}
+.intro{width:95%;display:block;margin:auto;padding-bottom:10px;font-size:15px;text-align:center;}
+.footer{width:95%;display:block;margin:auto;margin-top:10px;padding:10px;font-size:13px;text-align:center;}
 #loading{position:fixed;top:50%;left:50%;display:block;z-index:9;margin-top:-100px;margin-left:-150px;}
 #loadcover{position:fixed;top:0;left:0;background:rgba(255,255,255,0.6);z-index:7;width:100%;height:100%;display:block;}
+#sdlogo{width:50%;display:block;margin:auto;margin-bottom:5px;margin-top:10px;}
 </style></head><body><img id="loading" src="./load.gif" alt="Loading..." />
 <div id="loadcover" ></div>
-<img style="width:30%;display:block;margin:auto;margin-bottom:30px;margin-top:30px;" src="./sdlogo.png" />
-<div><span class="intro">Welcome to SACCO Drive</span><a href="http://136.211.172.132/client" class="loglnk">CLIENT LOG IN</a>
-<a href="http://130.211.172.132" class="loglnk">STAFF LOG IN</a></div><div class="clear"></div><span class="footer">&copy; Spere AAS</span>
+<img id="sdlogo" src="./sdlogo.png" />
+<div><span class="intro">SACCO Drive System</span><a href="http://130.211.172.132/client" class="loglnk">CLIENT LOG IN</a>
+<a href="http://130.211.172.132" class="loglnk">STAFF LOG IN</a></div><span class="footer">&copy; 
+<script type="text/javascript">
+var today = new Date()
+var year = today.getFullYear()
+document.write(year)
+</script>
+<br/>Spere AAS</span>
 <script type="text/javascript">
 window.onload = function(){ document.getElementById("loading").style.display = "none";
 document.getElementById("loadcover").style.display = "none";}
