@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.saccodrive.groupkenya.app"
+        versionCode = "1"
+        version     = "1.0" >
+	<name>SACCO Drive</name>
+	<description>SACCO Drive System financial management application official android app.</description>
+	<author href="saccodrive.groupkenya.com" email="info@groupkenya.com">Sphere Advanced Administrative Systems</author>
+	<gap:platform name="android" />
+	<preference name="android-build-tool" value="gradle" />
+	<preference name="permissions" value="none"/>
+	<preference name="disallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+	<!-- PhoneGap plugin declaration -->
+	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+	<!-- Icons declaration -->
+	<icon src="sdlogo.png" gap:platform="android" />
+</widget>
