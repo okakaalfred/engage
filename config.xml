@@ -14,6 +14,11 @@
 	<preference name="webviewbounce" value="false" />
 	<!-- PhoneGap plugin declaration -->
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+		<plugin name="cordova-plugin-whitelist" source="npm" />
+		<!-- Whitelist policy  -->
+	<access origin="*" />
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
 	<!-- Icons declaration -->
 	<icon src="sdlogo.png" gap:platform="android" />
 </widget>
